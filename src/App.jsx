@@ -1,7 +1,9 @@
+import { MainArea } from './components';
+
 const App = () => {
   return (
     <div>
-      <h1>Hello World</h1>
+      <MainArea />
     </div>
   );
 };
