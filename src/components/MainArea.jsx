@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import { MainContent } from './';
+import { InnerLayout } from '../Layouts';
 import video from '../img/marketing.mp4';
 import circles from '../img/circles.svg';
 
@@ -29,6 +31,10 @@ const MainArea = () => {
         <source src={video} />
       </video>
       <img src={circles} alt="circles" className="overlay" />
+
+      <InnerLayout>
+        <MainContent />
+      </InnerLayout>
     </MainAreaStyled>
   );
 };

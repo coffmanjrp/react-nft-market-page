@@ -17,6 +17,17 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     font-weight: 400;
+    color: #fff;
+  }
+
+  a {
+    font-family: inherit;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  p  {
+    line-height: 2rem;
   }
 
 `;
