@@ -50,6 +50,18 @@ const GlobalStyle = createGlobalStyle`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  .title-con {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+  }
+
+  .gradient-cards-con {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 2rem;
+  }
 `;
 
 export default GlobalStyle;
