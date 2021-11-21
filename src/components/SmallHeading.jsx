@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const SmaillHeadingStyled = styled.div`
+const SmallHeadingStyled = styled.div`
   h3 {
     display: inline-block;
     background: linear-gradient(120deg, rgb(132, 111, 244), rgb(241, 118, 116));
@@ -10,12 +10,12 @@ const SmaillHeadingStyled = styled.div`
   }
 `;
 
-const SmaillHeading = ({ title, identifier }) => {
+const SmallHeading = ({ title, identifier }) => {
   return (
-    <SmaillHeadingStyled>
+    <SmallHeadingStyled>
       <h3 className={identifier}>{title}</h3>
-    </SmaillHeadingStyled>
+    </SmallHeadingStyled>
   );
 };
 
-export default SmaillHeading;
+export default SmallHeading;

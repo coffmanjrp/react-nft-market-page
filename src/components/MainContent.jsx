@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { CTAButton, Navigation, SmaillHeading } from './';
+import { CTAButton, Navigation, SmallHeading } from './';
 import blockchain from '../img/bchain.png';
 
 const MainContentStyled = styled.div`
@@ -43,7 +43,7 @@ const MainContent = () => {
       <Navigation />
       <div className="content">
         <div className="left">
-          <SmaillHeading
+          <SmallHeading
             title="All Digital Currencies in One Place"
             identifier="Before"
           />

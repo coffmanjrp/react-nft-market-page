@@ -1,9 +1,10 @@
-import { MainArea } from './components';
+import { BodyContent, MainArea } from './components';
 
 const App = () => {
   return (
     <div>
       <MainArea />
+      <BodyContent />
     </div>
   );
 };
