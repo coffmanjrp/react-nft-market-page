@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import {
   BlogsSection,
+  ContactSection,
   DemonstrationSection,
   GradientCardsSection,
   MainTitle,
@@ -46,6 +47,7 @@ const BodyContent = () => {
         <GradientCardsSection />
         <DemonstrationSection DemonstrationSection />
       </InnerLayout>
+      <ContactSection />
       <footer>
         <p>Copyright &copy;React Animated Website. All Rights Reserved</p>
       </footer>
