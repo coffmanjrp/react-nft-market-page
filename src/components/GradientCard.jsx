@@ -136,7 +136,7 @@ const GradientCard = ({ image, avatar, name, price, title, ctaButton }) => {
                 200 Likes
               </p>
             </div>
-            <div className="cta-btn">{ctaButton}</div>
+            {ctaButton && <div className="cta-btn">{ctaButton}</div>}
           </div>
         </div>
       </div>

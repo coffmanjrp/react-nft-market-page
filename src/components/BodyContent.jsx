@@ -1,5 +1,11 @@
 import styled from 'styled-components';
-import { BlogsSection, GradientCardsSection, MainTitle, SellerCard } from './';
+import {
+  BlogsSection,
+  DemonstrationSection,
+  GradientCardsSection,
+  MainTitle,
+  SellerCard,
+} from './';
 import { InnerLayout } from '../Layouts';
 
 const BodyContentStyled = styled.div`
@@ -38,6 +44,7 @@ const BodyContent = () => {
         </div>
         <BlogsSection />
         <GradientCardsSection />
+        <DemonstrationSection DemonstrationSection />
       </InnerLayout>
       <footer>
         <p>Copyright &copy;React Animated Website. All Rights Reserved</p>

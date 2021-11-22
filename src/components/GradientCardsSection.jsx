@@ -38,49 +38,49 @@ const GradientCardsSection = () => {
             title="Just a dummy title"
           />
           <GradientCard
-            image={person}
+            image={person3}
             avatar={avatar}
             name="@Joel Clock"
             price="0.067 ETH"
             title="Just a dummy title"
           />
           <GradientCard
-            image={person}
+            image={bitcoin}
             avatar={avatar}
             name="@Joel Clock"
             price="0.067 ETH"
             title="Just a dummy title"
           />
           <GradientCard
-            image={person}
+            image={bitcoin2}
             avatar={avatar}
             name="@Joel Clock"
             price="0.067 ETH"
             title="Just a dummy title"
           />
           <GradientCard
-            image={person}
+            image={bitcoin3}
             avatar={avatar}
             name="@Joel Clock"
             price="0.067 ETH"
             title="Just a dummy title"
           />
           <GradientCard
-            image={person}
+            image={computer}
             avatar={avatar}
             name="@Joel Clock"
             price="0.067 ETH"
             title="Just a dummy title"
           />
           <GradientCard
-            image={person}
+            image={bitcoin2}
             avatar={avatar}
             name="@Joel Clock"
             price="0.067 ETH"
             title="Just a dummy title"
           />
           <GradientCard
-            image={person}
+            image={bitcoin}
             avatar={avatar}
             name="@Joel Clock"
             price="0.067 ETH"
