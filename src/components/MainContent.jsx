@@ -35,6 +35,46 @@ const MainContentStyled = styled.div`
       }
     }
   }
+
+  @media (max-width: 1024px) {
+    .content {
+      .left {
+        p {
+          display: none;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .content {
+      grid-template-columns: 1fr;
+
+      .right {
+        display: none;
+      }
+    }
+  }
+
+  @media (max-width: 425px) {
+    .content {
+      .left {
+        > * {
+          align-self: center;
+          text-align: center;
+        }
+        h1 {
+          font-size: 2rem;
+        }
+        h3 {
+          font-size: 1.5rem;
+        }
+        .btns-con a:not(:first-child) {
+          display: none;
+        }
+      }
+    }
+  }
 `;
 
 const MainContent = () => {

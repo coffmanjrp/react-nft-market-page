@@ -28,6 +28,25 @@ const BodyContentStyled = styled.div`
       opacity: 0.7;
     }
   }
+
+  @media (max-width: 1024px) {
+    .sellercards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 425px) {
+    .sellercards {
+      grid-template-columns: 1fr;
+      > div:not(:first-child) {
+        display: none;
+      }
+    }
+
+    footer {
+      font-size: 0.8rem;
+    }
+  }
 `;
 
 const BodyContent = () => {

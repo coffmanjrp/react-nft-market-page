@@ -47,6 +47,18 @@ const BlogsSectionStyled = styled.div`
       }
     }
   }
+
+  @media (max-width: 1024px) {
+    .blogs {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 425px) {
+    .blogs {
+      grid-template-columns: 1fr;
+    }
+  }
 `;
 
 const BlogsSection = () => {

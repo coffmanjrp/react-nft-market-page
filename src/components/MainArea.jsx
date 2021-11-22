@@ -22,6 +22,12 @@ const MainAreaStyled = styled.div`
     object-fit: cover;
     opacity: 0.7;
   }
+
+  @media (max-width: 425px) {
+    .overlay {
+      display: none;
+    }
+  }
 `;
 
 const MainArea = () => {

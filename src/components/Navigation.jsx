@@ -33,6 +33,12 @@ const NavigationStyled = styled.nav`
       }
     }
   }
+
+  @media (max-width: 768px) {
+    .nav-items li:not(:last-child) {
+      display: none;
+    }
+  }
 `;
 
 const Navigation = () => {

@@ -42,6 +42,12 @@ const ContactSectionStyled = styled.div`
       background-color: #eb3fa9;
     }
   }
+
+  @media (max-width: 1024px) {
+    .bg-image {
+      width: 100%;
+    }
+  }
 `;
 
 const ContactSection = () => {

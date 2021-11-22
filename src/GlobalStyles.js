@@ -62,6 +62,12 @@ const GlobalStyle = createGlobalStyle`
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 2rem;
   }
+
+  @media (max-width: 425px) {
+    .title-con {
+      width: 100%;
+    }
+  }
 `;
 
 export default GlobalStyle;
